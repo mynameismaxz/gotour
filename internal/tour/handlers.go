@@ -18,6 +18,7 @@ type root struct {
 	porContent []byte
 	polContent []byte
 	turContent []byte
+	thaContent []byte
 }
 
 // rootHandler returns a handler for all the requests except the ones for lessons.
@@ -80,6 +81,11 @@ func (rot *root) rootHandler(w http.ResponseWriter, r *http.Request) {
 	case "/tour/tur/":
 		log.Println("render turkish tour")
 		if err := renderUI(w, rot.turContent); err != nil {
+			log.Println(err)
+		}
+	case "/tour/tha/":
+		log.Println("render thai tour")
+		if err := renderUI(w, rot.thaContent); err != nil {
 			log.Println(err)
 		}
 	default:
