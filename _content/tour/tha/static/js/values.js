@@ -18,9 +18,9 @@ value('tableOfContents', [{
     ]
 }, {
     'id': 'language-mechanics',
-    'title': 'Language Mechanics',
+    'title': 'รูปแบบของภาษา',
     'description': `
-        <p>This material covers all the language syntax, idioms, implementation and specification of the language. Once you are done with this material you will understand the mechanics of the language and mechanical sympathies the language has for both the hardware and operating system.</p>
+        <p>สำหรับเนื้อหาการเรียนนี้ครอบคลุมไปจนถึง syntax ของภาษา, รูปแบบและวิธีการเขียน ข้อจำกัดไปจนถึงการประยุกต์ใช้ ซึ่งหลังจากที่คุณทำการเรียนเสร็จแล้ว คุณจะสามารถเข้าใจกลไกลของรูปแบบภาษา และความเข้ากันได้ระหว่างภาษาและฮาร์ดแวร์ไปจนถึงระบบปฏิบัติการ</p>
         `,
     'lessons': [
         'variables',
